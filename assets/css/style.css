@@ -117,10 +117,71 @@ section {
     margin-bottom: 15px;
 }
 
-.intro {
-    text-align: center;
+.steps {
+    background: #fce138;
 }
+
+.step {
+    margin: 50px auto;
+    padding-bottom: 50PX;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.step h3 {
+    flex: 1 30%;
+    color: #024e76;
+    font-size: 46px;
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
+.section-title {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+}
+
+.step-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 2 70%;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-bottom: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
 .intro p {
+    text-align: center;
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
@@ -128,43 +189,6 @@ section {
     margin: 0 auto;
 }
 
-.steps {
-    text-align: center;
-    background: #fce138;
-}
-
-.steps div {
-    margin-bottom: 80px;
-}
-
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
-
-.steps h3 {
-    color: #024e76;
-    font-size: 46px;
-    margin-top: 10px;
-}
-
-.steps p {
-    color: #39a6b2;
-    font-size: 23px;
-}
-
-.steps span {
-    font-size: 38px;
-}
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
   
 .primary-border {
     border-color: #fce138;
@@ -175,9 +199,6 @@ section {
 }
 
   /*TRAINERS INFO*/
-.trainers {
-    text-align: center;
-}
 
 .trainer {
     width: 900px;
@@ -227,7 +248,6 @@ section {
 
 /* REACH OUT STYLES START */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
@@ -291,3 +311,7 @@ footer a {
     color: #024e76;
 }
 /*FOOTER STYLES END*/
+
+.flex-row {
+    display: flex;
+}
